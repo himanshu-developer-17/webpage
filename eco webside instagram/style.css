@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(236, 234, 193);
+    
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-start{
+    justify-content: start;
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: start;
+}
+.align-items-end{
+    align-items: end;
+}
+
+.container{
+    width: 1100px;
+    
+}
+.left-said{
+    width: 20%;
+    /* background-color: antiquewhite; */
+}
+.ins-logo{
+    width: 140px;
+    padding: 20px;
+
+}
+
+.option{
+    margin-top: 20px;
+}
+
+.option div {
+    margin: 20px;
+}
+
+.option span ,.more{
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.more{
+    padding: 20px;
+   margin-top: 140px; 
+}
+
+.right-said{
+    width: 80%;
+    /* background-color: aqua; */
+}
+
+.profile-photo img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.highlight-box{
+    /* margin-top: 15px; */
+    margin-bottom: 9px;
+}
+.highlight{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding: 2px;
+}
+.highlight-box div p{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.post div img{
+    width: 33%;
+    height: 53%;
+    margin-top: 6px;
+    border-radius: 10px;
+}
+.posts-box span{
+    border-top: 2px solid gray;
+    color:;
+    
+}
+.saved{
+    color: gray;
+}
+
+.posts{
+    margin: 3px;
+    font-size:13px ;
+    font-weight: 600;
+
+}
+
+.posts div{
+    margin-left: 50px;
+}
+
+.hr{
+    height: 1px;
+    background-color: gray;
+}
+
+/* profil */
+.profile-photo{
+    padding: 20px 55px;
+}
+.bio-data{
+    margin-left: 70px;
+}
